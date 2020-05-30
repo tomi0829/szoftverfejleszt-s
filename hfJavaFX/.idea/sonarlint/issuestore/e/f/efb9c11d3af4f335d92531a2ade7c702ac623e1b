@@ -1,0 +1,223 @@
+
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(ô ‹–ÿÿÿÿÿ8İœø‡¦.
+O
+java:S1172Î",Remove this unused method parameter "event".(¨ñğÏùÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172´",Remove this unused method parameter "event".(¿©èñüÿÿÿÿ8‚ÖÃ‡¦.
+Ÿ
+java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ç£Ğ8‚ÖÃ‡¦.
+O
+java:S1172â",Remove this unused method parameter "event".(ğÁšûÿÿÿÿÿ8‚ÖÃ‡¦.
+L
+java:S1125")Remove the literal "false" boolean value.(³÷ê·ûÿÿÿÿ8‚ÖÃ‡¦.
+I
+java:S1172m",Remove this unused method parameter "event".(¹ÇÒ•8‚ÖÃ‡¦.
+O
+java:S1172¾",Remove this unused method parameter "event".(Ô©‡‡úÿÿÿÿ8‚ÖÃ‡¦.
+G
+java:S1125†")Remove the literal "false" boolean value.(¼í—8‚ÖÃ‡¦.
+Ÿ
+java:S1186ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø¥Ö™8‚ÖÃ‡¦.
+r
+java:S1192§"ODefine a constant instead of duplicating this literal "NÃ©gy kredites" 6 times.(¥õüÏûÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172‘",Remove this unused method parameter "event".(âå¿·ûÿÿÿÿ8‚ÖÃ‡¦.
+I
+java:S1172›",Remove this unused method parameter "event".(ÜØÓv8‚ÖÃ‡¦.
+G
+java:S1125•")Remove the literal "false" boolean value.(ÜÉ­ê8‚ÖÃ‡¦.
+O
+java:S1172â",Remove this unused method parameter "event".(Ğæ¤ûúÿÿÿÿ8‚ÖÃ‡¦.
+N
+java:S1172c",Remove this unused method parameter "event".(Ÿó©ˆıÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172¥",Remove this unused method parameter "event".(îàúôüÿÿÿÿ8‚ÖÃ‡¦.
+G
+java:S1125•")Remove the literal "false" boolean value.(ÜÉ­ê8‚ÖÃ‡¦.
+J
+java:S1172×",Remove this unused method parameter "event".(òÃÉ÷8‚ÖÃ‡¦.
+Ÿ
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦¾öÜ8‚ÖÃ‡¦.
+J
+java:S1172İ",Remove this unused method parameter "event".(ìµ´±8‚ÖÃ‡¦.
+h
+java:S1192o"FDefine a constant instead of duplicating this literal "Jeles" 6 times.(…¥‘±ÿÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172†",Remove this unused method parameter "event".(ÈÚ»á8‚ÖÃ‡¦.
+J
+java:S1172–",Remove this unused method parameter "event".(èƒ¡8‚ÖÃ‡¦.
+J
+java:S1172Í",Remove this unused method parameter "event".(ûÍìÛ8‚ÖÃ‡¦.
+k
+java:S1192¬"MDefine a constant instead of duplicating this literal "Ã–t kredites" 6 times.(ª‘Áë8‚ÖÃ‡¦.
+n
+java:S1192¡"PDefine a constant instead of duplicating this literal "HÃ¡rom kredites" 6 times.(ã©ğÒ8‚ÖÃ‡¦.
+O
+java:S1172”",Remove this unused method parameter "event".(Ş½š–şÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172©",Remove this unused method parameter "event".(¼×«ùúÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172¯",Remove this unused method parameter "event".(âŞûü8‚ÖÃ‡¦.
+O
+java:S1172ª",Remove this unused method parameter "event".(†ÁÍ‹şÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172Í",Remove this unused method parameter "event".(ö¤õÂ8‚ÖÃ‡¦.
+J
+java:S1172Ò",Remove this unused method parameter "event".(ÀÙ…í8‚ÖÃ‡¦.
+L
+java:S1125")Remove the literal "false" boolean value.(³÷ê·ûÿÿÿÿ8‚ÖÃ‡¦.
+¤
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ê“´­ıÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172Ø",Remove this unused method parameter "event".(Ç¸œúÿÿÿÿ8‚ÖÃ‡¦.
+V	java:S106®"9Replace this use of System.out or System.err by a logger.(´ÜÙø8‚ÖÃ‡¦.
+^	java:S125î"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172¸",Remove this unused method parameter "event".(»²·8‚ÖÃ‡¦.
+Ÿ
+java:S1186Ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(——§Ñ8‚ÖÃ‡¦.
+Ÿ
+java:S1186Ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ö¸Ï¡8‚ÖÃ‡¦.
+J
+java:S1172¯",Remove this unused method parameter "event".(§Ì»±8‚ÖÃ‡¦.
+J
+java:S1172÷",Remove this unused method parameter "event".(°××Æ8‚ÖÃ‡¦.
+Q
+java:S1068‰"3Remove this unused "atlagController" private field.(·İ•ù8‚ÖÃ‡¦.
+I
+java:S1172®",Remove this unused method parameter "event".(¼÷Ó8‚ÖÃ‡¦.
+N
+java:S1172x",Remove this unused method parameter "event".(¦„¸øÿÿÿÿ8‚ÖÃ‡¦.
+G
+java:S1125š")Remove the literal "false" boolean value.(ü¡¨¢8‚ÖÃ‡¦.
+G
+java:S1125š")Remove the literal "false" boolean value.(ü¡¨¢8‚ÖÃ‡¦.
+O
+java:S1172–",Remove this unused method parameter "event".(áô¹›øÿÿÿÿ8‚ÖÃ‡¦.
+I
+java:S1172‚",Remove this unused method parameter "event".(Éà™]8‚ÖÃ‡¦.
+O
+java:S1172Ÿ",Remove this unused method parameter "event".(´¾£Åşÿÿÿÿ8‚ÖÃ‡¦.
+k
+java:S1192Ò"MDefine a constant instead of duplicating this literal "VÃ¡lasszon!" 12 times.(²Ìã÷8¿ƒÃ‡¦.
+O
+java:S1172Ç",Remove this unused method parameter "event".(½‡Ê‘ùÿÿÿÿ8‚ÖÃ‡¦.
+p
+java:S1192–"MDefine a constant instead of duplicating this literal "Egy kredites" 6 times.(çàÄîşÿÿÿÿ8‚ÖÃ‡¦.
+p
+java:S1192±"MDefine a constant instead of duplicating this literal "Hat kredites" 6 times.(İ¨Ø÷ûÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172š",Remove this unused method parameter "event".(ËŒ«¿şÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172Ü",Remove this unused method parameter "event".(ößùøÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172 ",Remove this unused method parameter "event".(Üî¶şÿÿÿÿ8‚ÖÃ‡¦.
+r
+java:S1104"UMake valaszto1 a static final constant or non-public and provide accessors if needed.(ëÖëà8‚ÖÃ‡¦.
+N
+java:S1172}",Remove this unused method parameter "event".(à¼æüÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172›",Remove this unused method parameter "event".(£Ú8‚ÖÃ‡¦.
+J
+java:S1172´",Remove this unused method parameter "event".(è¸™‡8‚ÖÃ‡¦.
+V
+java:S1854±"9Remove this useless assignment to local variable "cella".(Ô©Ñq8‚ÖÃ‡¦.
+N
+java:S1172h",Remove this unused method parameter "event".(±²¤Øüÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172‹",Remove this unused method parameter "event".(§’™ë8‚ÖÃ‡¦.
+Ÿ
+java:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ùè™Ù8‚ÖÃ‡¦.
+J
+java:S1172Ò",Remove this unused method parameter "event".(øŒİ½8‚ÖÃ‡¦.
+Y	java:S125¼"<This block of commented-out lines of code should be removed.(äÿïÆ8‚ÖÃ‡¦.
+p
+java:S3776ó"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(°äÑ¢8‚ÖÃ‡¦.
+G
+java:S1481"*Remove this unused "cella" local variable.(ùç8‚ÖÃ‡¦.
+L
+java:S1125‹")Remove the literal "false" boolean value.(Šğé‘øÿÿÿÿ8‚ÖÃ‡¦.
+¤
+java:S1186ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½ôÓ»ùÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172‡",Remove this unused method parameter "event".(ˆ¯Ü½ÿÿÿÿÿ8‚ÖÃ‡¦.
+L
+java:S1125‹")Remove the literal "false" boolean value.(Šğé‘øÿÿÿÿ8‚ÖÃ‡¦.
+s
+java:S1192œ"PDefine a constant instead of duplicating this literal "kettÅ‘ kredites" 6 times.(¢˜Ã±üÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172ò",Remove this unused method parameter "event".(²€¸ûüÿÿÿÿ8‚ÖÃ‡¦.
+Y	java:S125…"<This block of commented-out lines of code should be removed.(É—8‚ÖÃ‡¦.
+h
+java:S1192["KDefine a constant instead of duplicating this literal "ElÃ©gtelen" 6 times.(ÕŸ¸©8‚ÖÃ‡¦.
+J
+java:S1172¾",Remove this unused method parameter "event".(ãÑ‚ù8‚ÖÃ‡¦.
+J
+java:S1172€",Remove this unused method parameter "event".(±ä¿º8‚ÖÃ‡¦.
+O
+java:S1172Ó",Remove this unused method parameter "event".(Å‰¹÷ıÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172¹",Remove this unused method parameter "event".(¹ı±î8‚ÖÃ‡¦.
+<
+java:S1700‰"Rename field "atlagController"(·İ•ù8‚ÖÃ‡¦.
+O
+java:S1172Ü",Remove this unused method parameter "event".(çÙ¸úüÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172¹",Remove this unused method parameter "event".(œâ‘³üÿÿÿÿ8‚ÖÃ‡¦.
+k
+java:S1192e"IDefine a constant instead of duplicating this literal "KÃ¶zepes" 6 times.(š×öíüÿÿÿÿ8‚ÖÃ‡¦.
+¤
+java:S1186ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(›ËÕÒşÿÿÿÿ8‚ÖÃ‡¦.
+¤
+java:S1186ö"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—·Ïáüÿÿÿÿ8‚ÖÃ‡¦.
+¤
+java:S1186ı"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»÷Ÿ‰üÿÿÿÿ8‚ÖÃ‡¦.
+I
+java:S1172s",Remove this unused method parameter "event".(ü´å­8‚ÖÃ‡¦.
+I
+java:S1172ë",Remove this unused method parameter "event".(óÁ¶+8‚ÖÃ‡¦.
+J
+java:S1172ª",Remove this unused method parameter "event".(‡¯§ß8‚ÖÃ‡¦.
+Ÿ
+java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÌÁ®Ê8‚ÖÃ‡¦.
+O
+java:S1172£",Remove this unused method parameter "event".(¥¼¢Êúÿÿÿÿ8‚ÖÃ‡¦.
+X	java:S125ê"<This block of commented-out lines of code should be removed.(Ÿ×Äw8‚ÖÃ‡¦.
+J
+java:S1172Œ",Remove this unused method parameter "event".(Ë‡Ì”8‚ÖÃ‡¦.
+G
+java:S1125Ÿ")Remove the literal "false" boolean value.(÷µûÆ8‚ÖÃ‡¦.
+I
+java:S1172á",Remove this unused method parameter "event".(ËÚÄ{8‚ÖÃ‡¦.
+O
+java:S1172Ã",Remove this unused method parameter "event".(Š÷ç£ıÿÿÿÿ8‚ÖÃ‡¦.
+J
+java:S1172æ",Remove this unused method parameter "event".(«—µù8‚ÖÃ‡¦.
+J
+java:S1172É",Remove this unused method parameter "event".(£ÚÒ‡8‚ÖÃ‡¦.
+I
+java:S1172¥",Remove this unused method parameter "event".(ÒºÌt8‚ÖÃ‡¦.
+G
+java:S1125†")Remove the literal "false" boolean value.(¼í—8‚ÖÃ‡¦.
+N
+java:S1172^",Remove this unused method parameter "event".(²²Å×øÿÿÿÿ8‚ÖÃ‡¦.
+O
+java:S1172í",Remove this unused method parameter "event".(œ½ıéûÿÿÿÿ8‚ÖÃ‡¦.
+|
+java:S1450‰"^Remove the "atlagController" field and declare it as a local variable in the relevant methods.(·İ•ù8‚ÖÃ‡¦.
+O
+java:S1172¾",Remove this unused method parameter "event".(®ß®³şÿÿÿÿ8‚ÖÃ‡¦.
+I
+java:S1172Y",Remove this unused method parameter "event".(‹»ÆÏ8‚ÖÃ‡¦.
+J
+java:S1172‘",Remove this unused method parameter "event".(€Û û8‚ÖÃ‡¦.
+O
+java:S1172È",Remove this unused method parameter "event".(¯«¾Âùÿÿÿÿ8‚ÖÃ‡¦.
+i
+java:S1192`"LDefine a constant instead of duplicating this literal "ElÃ©gsÃ©ges" 6 times.(ÊÕÀÜ8‚ÖÃ‡¦.
+J
+java:S1172Ã",Remove this unused method parameter "event".(æ³²“8‚ÖÃ‡¦.
+I
+java:S1172ç",Remove this unused method parameter "event".(¡©¬8‚ÖÃ‡¦.
+G
+java:S1125Ÿ")Remove the literal "false" boolean value.(÷µûÆ8‚ÖÃ‡¦.
