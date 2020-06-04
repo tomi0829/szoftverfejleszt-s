@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.SzamoloController">
+   <children>
+      <Label alignment="CENTER" layoutY="1.0" prefHeight="39.0" prefWidth="801.0" text="Üdvözöllek a súlyozott tanulmányi átlag számoló programban!" textAlignment="CENTER" textFill="#5b0ce4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="116.0" prefHeight="20.0" prefWidth="165.0" text="1.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label1" editable="false" layoutX="238.0" layoutY="111.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="161.0" prefHeight="20.0" prefWidth="165.0" text="2.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label2" editable="false" layoutX="238.0" layoutY="156.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="212.0" prefHeight="20.0" prefWidth="165.0" text="3.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label3" editable="false" layoutX="238.0" layoutY="207.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="262.0" prefHeight="20.0" prefWidth="165.0" text="4.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label4" editable="false" layoutX="238.0" layoutY="257.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="313.0" prefHeight="20.0" prefWidth="165.0" text="5.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label5" editable="false" layoutX="238.0" layoutY="308.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="42.0" layoutY="366.0" prefHeight="20.0" prefWidth="165.0" text="6.tantárgy érdemjegye">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="label6" editable="false" layoutX="238.0" layoutY="361.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <SplitMenuButton id="menu1" fx:id="menu1" layoutX="308.0" layoutY="114.0" mnemonicParsing="false" text="Válasszon">
+        <items>
+           <MenuItem id="elegtelen" fx:id="egyes" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+          <MenuItem id="kettes" fx:id="kettes" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+        </items>
+      </SplitMenuButton>
+      <VBox layoutX="539.0" layoutY="213.0" prefHeight="200.0" prefWidth="100.0" />
+      <Button fx:id="szamolGomb" layoutX="334.0" layoutY="412.0" mnemonicParsing="false" onAction="#atlagKiszamol" text="Súlyozott átlag kiszámolása!">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="31.0" layoutY="414.0" prefHeight="25.0" prefWidth="165.0" text="Év végi eredmény" textAlignment="CENTER" textFill="#eb792d">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <SplitMenuButton id="menu2" fx:id="menu2" layoutX="308.0" layoutY="159.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="elegtelen" fx:id="egyes1" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+            <MenuItem id="kettes" fx:id="kettes1" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas1" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes1" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos1" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton id="menu3" fx:id="menu3" layoutX="308.0" layoutY="210.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="elegtelen" fx:id="egyes2" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+            <MenuItem id="kettes" fx:id="kettes2" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas2" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes2" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos2" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton id="menu4" fx:id="menu4" layoutX="308.0" layoutY="260.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="elegtelen" fx:id="egyes3" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+            <MenuItem id="kettes" fx:id="kettes3" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas3" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes3" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos3" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton id="menu5" fx:id="menu5" layoutX="308.0" layoutY="311.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="elegtelen" fx:id="egyes4" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+            <MenuItem id="kettes" fx:id="kettes4" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas4" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes4" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos4" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton id="menu6" fx:id="menu6" layoutX="308.0" layoutY="364.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="elegtelen" fx:id="egyes5" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégtelen" />
+            <MenuItem id="kettes" fx:id="kettes5" mnemonicParsing="false" onAction="#jegyKitolt" text="Elégséges" />
+            <MenuItem id="harmas" fx:id="harmas5" mnemonicParsing="false" onAction="#jegyKitolt" text="Közepes" />
+            <MenuItem id="negyes" fx:id="negyes5" mnemonicParsing="false" onAction="#jegyKitolt" text="Jó" />
+            <MenuItem id="otos" fx:id="otos5" mnemonicParsing="false" onAction="#jegyKitolt" text="Jeles" />
+         </items>
+      </SplitMenuButton>
+      <TextField fx:id="label11" editable="false" layoutX="458.0" layoutY="111.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label21" editable="false" layoutX="458.0" layoutY="156.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label31" editable="false" layoutX="458.0" layoutY="207.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label41" editable="false" layoutX="458.0" layoutY="257.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label51" editable="false" layoutX="458.0" layoutY="308.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="label61" editable="false" layoutX="458.0" layoutY="361.0" mouseTransparent="true" prefHeight="30.0" prefWidth="38.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <SplitMenuButton fx:id="menu11" layoutX="528.0" layoutY="114.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes6" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes6" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kredit" />
+            <MenuItem id="harom" fx:id="harmas6" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes6" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos6" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos61" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="menu21" layoutX="528.0" layoutY="159.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes11" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes11" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kredit" />
+            <MenuItem id="harom" fx:id="harmas11" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes11" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos11" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos111" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="menu31" layoutX="528.0" layoutY="210.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes21" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes21" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kredit" />
+            <MenuItem id="harom" fx:id="harmas21" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes21" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos21" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos211" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="menu41" layoutX="528.0" layoutY="260.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes31" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes31" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kredit" />
+            <MenuItem id="harom" fx:id="harmas31" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes31" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos31" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos311" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="menu51" layoutX="528.0" layoutY="311.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes41" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes41" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kreit" />
+            <MenuItem id="harom" fx:id="harmas41" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes41" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos41" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos411" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <SplitMenuButton fx:id="menu61" layoutX="528.0" layoutY="364.0" mnemonicParsing="false" text="Válasszon">
+         <items>
+            <MenuItem id="egy" fx:id="egyes51" mnemonicParsing="false" onAction="#kreditKitolt" text="Egy kredit" />
+            <MenuItem id="ketto" fx:id="kettes51" mnemonicParsing="false" onAction="#kreditKitolt" text="Kettő kredit" />
+            <MenuItem id="harom" fx:id="harmas51" mnemonicParsing="false" onAction="#kreditKitolt" text="Három kredit" />
+            <MenuItem id="negy" fx:id="negyes51" mnemonicParsing="false" onAction="#kreditKitolt" text="Négy kredit" />
+            <MenuItem id="ot" fx:id="otos51" mnemonicParsing="false" onAction="#kreditKitolt" text="Öt kredit" />
+            <MenuItem id="hat" fx:id="otos511" mnemonicParsing="false" onAction="#kreditKitolt" text="Hat kredit" />
+         </items>
+      </SplitMenuButton>
+      <TextField fx:id="tanulmanyiAtlag" editable="false" layoutX="214.0" layoutY="409.0" mouseTransparent="true" prefHeight="30.0" prefWidth="69.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="torlesGomb" layoutX="334.0" layoutY="457.0" mnemonicParsing="false" onAction="#torles" prefHeight="30.0" prefWidth="194.0" text="Kitöltött adatok törlése">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button id="atlagokButton" fx:id="atlagokButton" layoutX="668.0" layoutY="445.0" mnemonicParsing="false" onAction="#eddigiAtlagok" text="Eddigi átlagok" />
+
+   </children>
+</Pane>

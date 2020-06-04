@@ -1,0 +1,9 @@
+main\Atlagszamolo.class
+main\repository\Repository.class
+main\controller\SzamoloController.class
+main\controller\AtlagController.class
+main\model\Labels.class
+main\service\Szamolo.class
+main\Main.class
+main\entity\Szamolas.class
+main\entitymanager\CustomEntityManager.class

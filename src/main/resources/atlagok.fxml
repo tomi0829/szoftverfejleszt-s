@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.AtlagController">
+    <children>
+        <Label alignment="CENTER" layoutY="1.0" prefHeight="39.0" prefWidth="801.0" text="Eddigi átlagok" textAlignment="CENTER" textFill="#5b0ce4">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+      <Button id="vissza" layoutX="376.0" layoutY="446.0" mnemonicParsing="false" onAction="#atlagSzamolas" text="Vissza" />
+      <TableView fx:id="atlagok" layoutX="88.0" layoutY="157.0" prefHeight="200.0" prefWidth="612.0">
+        <columns>
+          <TableColumn prefWidth="94.0" text="ID" />
+          <TableColumn prefWidth="517.0" text="Átlag" />
+        </columns>
+      </TableView>
+    </children>
+</Pane>
